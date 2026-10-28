@@ -11,7 +11,7 @@ export default function PageHeader({
     <section className="bg-maroon-950 py-20">
       <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
         {eyebrow && (
-          <div className="eyebrow justify-center text-gold-500">
+          <div className="eyebrow justify-center text-sky-300">
             <span className="eyebrow-rule" />
             {eyebrow}
           </div>

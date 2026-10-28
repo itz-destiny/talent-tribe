@@ -15,15 +15,15 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/talent_tribe_logo.svg"
-            alt="Talent Tribe"
-            width={36}
-            height={36}
+            src="/logo.svg"
+            alt="BuildwithRivers"
+            width={28}
+            height={28}
           />
-          <span className="font-display text-lg font-bold leading-tight text-white">
-            TALENT
+          <span className="font-display text-[11px] font-bold leading-[1.15] tracking-wider text-white">
+            BUILDWITH
             <br />
-            <span className="text-gold-500">TRIBE</span>
+            <span className="text-sky-300">RIVERS</span>
           </span>
         </Link>
 
@@ -38,7 +38,7 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 className={`font-heading text-sm font-medium transition ${
-                  active ? "text-gold-500" : "text-white/90 hover:text-gold-400"
+                  active ? "text-sky-300" : "text-white/90 hover:text-sky-300"
                 }`}
               >
                 {item.label}
@@ -76,7 +76,7 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="font-heading text-sm font-medium text-white/90 hover:text-gold-400"
+                className="font-heading text-sm font-medium text-white/90 hover:text-sky-300"
               >
                 {item.label}
               </Link>

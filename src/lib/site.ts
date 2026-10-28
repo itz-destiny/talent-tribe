@@ -1,9 +1,8 @@
 export const siteConfig = {
-  name: "Talent Tribe",
+  name: "BuildwithRivers",
   description:
-    "A community of creative minds driving the Oyo ecosystem through Innovation.",
-  url: "https://oyotalenttribe.atcafrica.com",
-  twitter: "@oyotalenttribehq",
+    "Building the tech community across Rivers State through learning, collaboration and innovation.",
+  url: "https://talent-tribe-red.vercel.app",
   donateUrl: "https://atcafrica.com/donate",
   joinFormUrl: "https://forms.gle/m3oWFHVtvTGbd29Z9",
   supportEmail: "support@talenttribe.com",

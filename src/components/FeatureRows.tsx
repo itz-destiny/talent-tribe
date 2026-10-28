@@ -80,7 +80,7 @@ export default function FeatureRows() {
                     className="object-cover"
                   />
                 </div>
-                <span className="absolute bottom-4 left-4 rounded-full bg-maroon-950/70 px-3 py-1 text-xs font-heading font-semibold uppercase tracking-widest text-gold-500">
+                <span className="absolute bottom-4 left-4 rounded-full bg-maroon-950/70 px-3 py-1 text-xs font-heading font-semibold uppercase tracking-widest text-sky-300">
                   {row.label}
                 </span>
               </div>

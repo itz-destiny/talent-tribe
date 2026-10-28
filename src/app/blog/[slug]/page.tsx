@@ -37,7 +37,7 @@ export default async function BlogPostPage({
         <Image src={post.image} alt={post.title} fill className="object-cover" />
         <div className="absolute inset-0 bg-maroon-950/60" />
         <div className="relative mx-auto flex h-full max-w-3xl flex-col justify-end px-4 pb-10 sm:px-6 lg:px-8">
-          <p className="text-xs font-heading font-bold uppercase tracking-widest text-gold-500">
+          <p className="text-xs font-heading font-bold uppercase tracking-widest text-sky-300">
             {post.category}
           </p>
           <h1 className="mt-2 font-display text-3xl font-bold text-white sm:text-4xl">

@@ -46,24 +46,15 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     url: siteConfig.url,
     siteName: siteConfig.name,
-    images: [
-      {
-        url: "/images/TalentTibeColorLogo1.webp",
-        width: 1200,
-        height: 630,
-        alt: "Talent Tribe Logo",
-      },
-    ],
     type: "website",
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: siteConfig.name,
     description: siteConfig.description,
-    images: ["/images/TalentTibeColorLogo1.webp"],
   },
   icons: {
-    icon: "/talent_tribe_logo.svg",
+    icon: "/logo.svg",
   },
 };
 

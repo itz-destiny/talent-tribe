@@ -6,7 +6,7 @@ const nextConfig = {
         { source: "/", destination: "/coming-soon" },
         {
           source:
-            "/:path((?!coming-soon|_next|images|talent_tribe_logo\\.svg).+)",
+            "/:path((?!coming-soon|_next|images|logo\\.svg).+)",
           destination: "/coming-soon",
         },
       ],

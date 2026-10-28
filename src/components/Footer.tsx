@@ -1,15 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
 import NewsletterForm from "@/components/NewsletterForm";
-import { footerNav, siteConfig } from "@/lib/site";
+import { footerNav } from "@/lib/site";
 
 export default function Footer() {
   return (
     <footer>
       <section className="bg-gold-500">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-          <p className="mb-2 font-heading text-xs font-bold uppercase tracking-[0.2em] text-maroon-800">
-            The Tribe Dispatch
+          <p className="mb-2 font-heading text-xs font-bold uppercase tracking-[0.2em] text-white/80">
+            The Dispatch
           </p>
           <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
             <div>
@@ -18,9 +18,9 @@ export default function Footer() {
                 <br />
                 our newsletter
               </h2>
-              <p className="mt-4 max-w-md text-sm text-maroon-900">
+              <p className="mt-4 max-w-md text-sm text-white/90">
                 Fresh opportunities, community stories and practical updates
-                from Oyo&apos;s growing tech ecosystem.
+                from the BuildwithRivers community.
               </p>
             </div>
             <NewsletterForm />
@@ -32,7 +32,7 @@ export default function Footer() {
         className="h-10 bg-maroon-950 bg-[length:40px_40px] bg-center"
         style={{
           backgroundImage:
-            "repeating-linear-gradient(90deg, transparent 0 20px, rgba(245,160,0,0.35) 20px 20.5px)",
+            "repeating-linear-gradient(90deg, transparent 0 20px, rgba(96,165,250,0.35) 20px 20.5px)",
         }}
         aria-hidden
       />
@@ -42,20 +42,20 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/talent_tribe_logo.svg"
-                alt="Talent Tribe"
-                width={32}
-                height={32}
+                src="/logo.svg"
+                alt="BuildwithRivers"
+                width={26}
+                height={26}
               />
-              <span className="font-display text-base font-bold leading-tight text-white">
-                TALENT
+              <span className="font-display text-[11px] font-bold leading-[1.15] tracking-wider text-white">
+                BUILDWITH
                 <br />
-                <span className="text-gold-500">TRIBE</span>
+                <span className="text-sky-300">RIVERS</span>
               </span>
             </Link>
             <p className="mt-4 max-w-xs text-sm">
-              A community of creative minds driving the Oyo ecosystem through
-              innovation and shared purpose.
+              Building the tech community across Rivers State through
+              learning, collaboration and shared purpose.
             </p>
             <div className="mt-4 flex gap-3">
               {["facebook", "instagram", "linkedin", "slack", "twitter"].map(
@@ -70,7 +70,6 @@ export default function Footer() {
                 ),
               )}
             </div>
-            <p className="mt-3 text-sm text-gold-500">{siteConfig.twitter}</p>
           </div>
 
           <FooterColumn title="Navigate" items={footerNav.navigate} />
@@ -79,7 +78,7 @@ export default function Footer() {
         </div>
 
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 border-t border-white/10 px-4 py-6 text-xs text-white/60 sm:flex-row sm:px-6 lg:px-8">
-          <p>© 2026 Talent Tribe. All rights reserved. Oyo State, Nigeria.</p>
+          <p>© 2026 BuildwithRivers. All rights reserved.</p>
           <p className="font-heading uppercase tracking-[0.2em]">
             Learn · Grow · Connect
           </p>
@@ -104,7 +103,7 @@ function FooterColumn({
       <ul className="space-y-3 text-sm">
         {items.map((item) => (
           <li key={item.label}>
-            <Link href={item.href} className="hover:text-gold-400">
+            <Link href={item.href} className="hover:text-sky-300">
               {item.label}
             </Link>
           </li>

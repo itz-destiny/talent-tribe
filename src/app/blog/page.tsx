@@ -33,11 +33,11 @@ export default function BlogPage() {
                 fill
                 className="object-cover"
               />
-              <span className="absolute left-4 top-4 rounded-full bg-maroon-950/80 px-3 py-1 text-[10px] font-heading font-bold uppercase tracking-widest text-gold-500">
+              <span className="absolute left-4 top-4 rounded-full bg-maroon-950/80 px-3 py-1 text-[10px] font-heading font-bold uppercase tracking-widest text-sky-300">
                 {featured.category}
               </span>
               {featured.featured && (
-                <span className="absolute right-4 top-4 rounded-full bg-gold-500 px-3 py-1 text-[10px] font-heading font-bold uppercase tracking-widest text-maroon-950">
+                <span className="absolute right-4 top-4 rounded-full bg-gold-500 px-3 py-1 text-[10px] font-heading font-bold uppercase tracking-widest text-white">
                   Featured
                 </span>
               )}

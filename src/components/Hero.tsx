@@ -61,7 +61,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-maroon-950 via-maroon-950/70 to-maroon-950/20" />
 
       <div className="relative mx-auto flex max-w-7xl flex-col gap-6 px-4 py-28 sm:px-6 lg:px-8">
-        <div className="eyebrow">
+        <div className="eyebrow text-sky-300">
           <span className="eyebrow-rule" />
           OYO STATE · NIGERIA · 2026
         </div>
@@ -70,7 +70,7 @@ export default function Hero() {
           {slide.lines.map((line) => (
             <span
               key={line.text}
-              className={`block ${line.accent ? "text-gold-500" : ""}`}
+              className={`block ${line.accent ? "text-sky-300" : ""}`}
             >
               {line.text}
             </span>

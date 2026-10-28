@@ -9,7 +9,7 @@ export default function JoinCTA() {
           <br />
           the Tribe?
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-maroon-900">
+        <p className="mx-auto mt-4 max-w-xl text-white/90">
           A community for both newbies and professionals. No gatekeepers —
           just people passionate about Oyo&apos;s tech future.
         </p>
@@ -19,12 +19,12 @@ export default function JoinCTA() {
           </a>
           <a
             href={siteConfig.donateUrl}
-            className="inline-flex items-center gap-2 rounded-md border border-maroon-950 px-6 py-3 text-sm font-heading font-bold text-maroon-950 transition hover:bg-maroon-950 hover:text-gold-400"
+            className="inline-flex items-center gap-2 rounded-md border border-white px-6 py-3 text-sm font-heading font-bold text-white transition hover:bg-white hover:text-gold-600"
           >
             Donate For a Talent
           </a>
         </div>
-        <p className="mt-8 font-heading text-xs font-bold uppercase tracking-[0.3em] text-maroon-900">
+        <p className="mt-8 font-heading text-xs font-bold uppercase tracking-[0.3em] text-white">
           Learn · Grow · Connect
         </p>
       </div>

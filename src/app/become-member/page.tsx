@@ -43,13 +43,13 @@ export default function BecomeMemberPage() {
 
       <section className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="rounded-2xl bg-gold-500 p-8 text-center">
-          <p className="font-heading text-xs font-bold uppercase tracking-widest text-maroon-900">
+          <p className="font-heading text-xs font-bold uppercase tracking-widest text-white/90">
             One-Time Membership Fee
           </p>
           <p className="mt-2 font-display text-5xl font-bold text-white">
             ₦2,000
           </p>
-          <p className="mt-2 text-sm text-maroon-900">
+          <p className="mt-2 text-sm text-white/90">
             Unlock lifetime access to exclusive member benefits
           </p>
         </div>

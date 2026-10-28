@@ -6,7 +6,7 @@ export default function Partners() {
   return (
     <section className="bg-cream-soft py-20">
       <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-        <span className="inline-block rounded-full bg-gold-500 px-5 py-2 font-heading text-xs font-bold uppercase tracking-[0.2em] text-maroon-950">
+        <span className="inline-block rounded-full bg-gold-500 px-5 py-2 font-heading text-xs font-bold uppercase tracking-[0.2em] text-white">
           Partners
         </span>
         <h2 className="mt-6 font-display text-3xl text-maroon-950 sm:text-4xl">

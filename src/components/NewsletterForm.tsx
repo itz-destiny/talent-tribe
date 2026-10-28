@@ -34,7 +34,7 @@ export default function NewsletterForm() {
           Subscribe →
         </button>
       </div>
-      <p className="text-xs text-maroon-900">
+      <p className="text-xs text-white/80">
         Join the people building what comes next.
       </p>
     </form>
